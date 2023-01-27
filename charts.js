@@ -121,6 +121,14 @@ function buildCharts(sample) {
       value: resultsWfreq,
       type: "indicator",
 		  mode: "gauge+number"
+      gauge: {
+        axis: {range: [0,10]},
+        steps: [
+        { range: [0,2],color: 'red'},
+        { range: [2,4],color:'orange'},
+        { range: [4,6],color:'yellow'},
+        { range: [6,8],color:'green'},
+        { range: [8,10],color:'blue'}]}
     }];
     // Deliverable 3: 5. Create the layout for the gauge chart.
     var gaugeLayout = {
