@@ -128,7 +128,8 @@ function buildCharts(sample) {
         { range: [6,8],color:'green'},
         { range: [8,10],color:'blue'}],
       mode: "gauge+number"
-    }];
+    }
+  }];
     // Deliverable 3: 5. Create the layout for the gauge chart.
     var gaugeLayout = {
       width: 450,
