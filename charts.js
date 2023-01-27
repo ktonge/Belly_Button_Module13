@@ -119,8 +119,6 @@ function buildCharts(sample) {
     var gaugeData = [{
       domain: {x: [0,1],y: [0,1]},
       value: resultsWfreq,
-      type: "indicator",
-		  mode: "gauge+number"
       gauge: {
         axis: {range: [0,10]},
         steps: [
